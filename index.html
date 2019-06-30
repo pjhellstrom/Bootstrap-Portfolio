@@ -12,7 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,16 +21,16 @@
 
     <nav class="navbar bg-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" width="250px"></a>
+            <a class="navbar-brand" href="/index.html"><h1 class="text-dark">Jonas Hellström</h1></a>
             <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                    <li class="nav-item text-dark">
+                        <a class="nav-link text-dark active" id="about-tab" data-toggle="tab" href="/index.html" role="tab" aria-controls="about" aria-selected="true">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Portfolio</a>
+                        <a class="nav-link text-dark" id="portfolio-tab" data-toggle="tab" href="/portfolio.html" role="tab" aria-controls="portfolio" aria-selected="false">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                        <a class="nav-link text-dark" id="contact-tab" data-toggle="tab" href="/contact.html" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
                     </li>
             </ul>
         </div>
@@ -38,16 +38,17 @@
 
     <!--Two column section-->
 
-    <div class="container-fluid padding">
+    <div class="container-fluid padding bg-dark">
         <br>    
         <h2>About</h2>
+        <hr>
     </div>
 
-    <div class="container-fluid padding">
+    <div class="container-fluid padding bg-dark text-light">
         <br>
         <div class="row padding">
 
-            <div class="card col-sm-12 col-md-4">
+            <div class="card col-sm-12 col-md-4 bg-dark">
                 <img class="rounded-circle card-img-top" src="img/jonasimg.png" height="100%" width="100%">
                 <div class="card-body">
                 <h5 class="card-title">Based in Toronto</h5>
@@ -74,19 +75,20 @@
 
     <!--Three column section-->
 
-    <div class="container-fluid padding">
+    <div class="container-fluid padding bg-dark text-light">
         <h2>Skills</h2>
+        <hr>
     </div>
 
-        <div class="row text-center padding">
+        <div class="row text-center padding bg-dark text-light">
 
             <div class="col-sm-12 col-md-4">
                 <h3>Front end</h3>
                 <hr>
                 <ul class="list-group">
-                    <li class="list-group-item">HTML5</li>
-                    <li class="list-group-item">CSS3</li>
-                    <li class="list-group-item">JavaScript</li>
+                    <li class="list-group-item bg-dark">HTML5</li>
+                    <li class="list-group-item bg-dark">CSS3</li>
+                    <li class="list-group-item bg-dark">JavaScript</li>
                 </ul>
 
             </div>
@@ -95,9 +97,9 @@
                 <h3>Back end</h3>
                 <hr>
                 <ul class="list-group">
-                    <li class="list-group-item">mySQL</li>
-                    <li class="list-group-item">MongoDB</li>
-                    <li class="list-group-item">Node.js</li>
+                    <li class="list-group-item bg-dark">mySQL</li>
+                    <li class="list-group-item bg-dark">MongoDB</li>
+                    <li class="list-group-item bg-dark">Node.js</li>
                 </ul>
             </div>
 
@@ -105,20 +107,22 @@
                     <h3>Frameworks</h3>
                     <hr>
                     <ul class="list-group">
-                        <li class="list-group-item">Bootstrap</li>
-                        <li class="list-group-item">React</li>
-                        <li class="list-group-item">Angular</li>
+                        <li class="list-group-item bg-dark">Bootstrap</li>
+                        <li class="list-group-item bg-dark">React</li>
+                        <li class="list-group-item bg-dark">Angular</li>
                     </ul>
                 <br>
             </div>
 
         </div>
 
-        <footer class="footer padding bg-dark">
-            <div class="container-fluid text-center text-light">
-                &copy; Jonas Hellstrom 2019
-            </div>
-        </footer>
+    <!--Footer-->
+
+    <footer class="footer padding bg-light">
+        <div class="container-fluid text-center text-dark">
+            &copy; Jonas Hellstrom 2019
+        </div>
+    </footer>
 
 </body>
 </html>
