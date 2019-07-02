@@ -81,9 +81,8 @@ hr {
     border: 0px;
 }
 
-/* Color changer for nav-bg*/
+/* Color changer for nav-bg - not in use
 
-/*
 .gradDynamic:after, .gradDynamic:before{
 position:absolute;
 top:0;
